@@ -176,7 +176,7 @@ class RowCustomizerTest extends \PHPUnit\Framework\TestCase
             'bundle_sku_type' => 'fixed',
             'bundle_price_view' => 'As low as',
             'bundle_weight_type' => 'fixed',
-            'bundle_values' => 'name=title,type=1,required=1,sku=1,price=1,default=,default_qty=1,price_type=percent'
+            'bundle_values' => 'name=title,type=1,required=1,sku=1,price=1,default=,default_qty=1,price_type=percent,can_change_qty=1'
         ];
         $this->assertEquals($expected, $preparedRow);
     }
